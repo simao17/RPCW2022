@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC2: fileserver para um dataset de filmes</titulo>
+        <data> 2022-02-22 </data>
+        <autor>
+            <id>PG47677</id>
+            <nome>Simão Freitas Monteiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Servidor que permite ao utilizador aceder a informação sobre filmes</p>
+        <p>Parágrafo a apontar para o
+            <xref>
+                <url>xml.com</url>
+                <texto>XML</texto>
+            </xref>.<p>
+    </resumo>
+    <resultados>
+        <resultado><url>conversor.py</url>
+            <texto>Conversor de json para html em python</texto></resultado>
+        <resultado><url>fileserver.js</url>
+            <texto>Servidor</texto></resultado> 
+        <resultado><url>cinemaATP.json</url>
+            <texto>Dataset</texto></resultado> 
+    </resultados>  
+</doc>
