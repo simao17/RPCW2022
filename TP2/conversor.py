@@ -1,5 +1,3 @@
-from __future__ import print_function
-import re
 import json
 import os
 
@@ -18,6 +16,8 @@ data = json.load(file)
 indice = 1
 
 filmes = ""
+
+data.sort(key=lambda x :x["title"])
   
 try:
     # Create target Directory
