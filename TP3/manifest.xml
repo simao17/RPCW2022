@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC3: Escola de música</titulo>
+        <data> 2022-03-14 </data>
+        <autor>
+            <id>PG47677</id>
+            <nome>Simão Freitas Monteiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Apresentar um página web com listagem de cursos, alunos e intrumentos de uma escola de música através de uma API de dados </p>
+        <p>Parágrafo a apontar para o
+            <xref>
+                <url>xml.com</url>
+                <texto>XML</texto>
+            </xref>.<p>
+    </resumo>
+    <resultados>
+        <resultado><url>escola.js</url>
+            <texto>Ficheiro javascript que soluciona o trabalho de casa</texto></resultado>
+    </resultados>  
+</doc>
