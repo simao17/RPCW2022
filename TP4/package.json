@@ -1,0 +1,16 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "Lista de tarefas para/por fazer",
+  "main": "tarefas.js",
+  "scripts": {
+    "run": "node tarefas.js",
+    "dev": "nodemon tarefas.js"
+  },
+  "author": "sfm",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "nodemon": "^2.0.15"
+  }
+}
