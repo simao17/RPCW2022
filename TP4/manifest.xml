@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC4: To-do list</titulo>
+        <data> 2022-03-14 </data>
+        <autor>
+            <id>PG47677</id>
+            <nome>Simão Freitas Monteiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Apresentar um página web com formulario para adicionar tarefa, lista de tarefas por realizar e lista de tarefas realizadas </p>
+        <p>Parágrafo a apontar para o
+            <xref>
+                <url>xml.com</url>
+                <texto>XML</texto>
+            </xref>.<p>
+    </resumo>
+    <resultados>
+        <resultado><url>tarefas.js</url>
+            <texto>Ficheiro javascript que soluciona o trabalho de casa</texto></resultado>
+        <resultado><url>tarefas.json</url>
+              <texto>Ficheiro json onde são guardadas as tarefas</texto></resultado>
+        <resultado><url>w3.css</url>
+              <texto>w3 css</texto></resultado>
+    </resultados>  
+</doc>
