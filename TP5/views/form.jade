@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Inserir nova música
+
+  form(action="/musicas",method="post")
+    label Titulo 
+    input(type="text",name="tit")
+    label Provincia 
+    input(type="text",name="prov")
+    input(type="submit",value="Registar")
+    input(type="reset",value="Apagar")

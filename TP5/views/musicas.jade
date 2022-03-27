@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Músicas
+  h2 
+        a(href="/musicas/inserir") Inserir Musica
+  table 
+    tr
+        th Titulo 
+        th Provincia 
+        th Id 
+    each music in musicas 
+        tr 
+            td= music.tit
+            td= music.prov 
+            td 
+              a(href="/musicas/"+music.id)=music.id
