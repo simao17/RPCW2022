@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Inserir novo ficheiro
+
+  form(action="/ficheiros",method="post",enctype="multipart/form-data")
+    label Escolher ficheiro
+    input(type="file",name="file")
+    label Descrição
+    input(type="text", name="descricao")
+    input(type="submit",value="Registar")
+    input(type="reset",value="Apagar")

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC6: Gestor de ficheiros</titulo>
+        <data> 2022-04-05 </data>
+        <autor>
+            <id>PG47677</id>
+            <nome>Simão Freitas Monteiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Criação de um servidor de ficheiros que usa MongoDB para o armazenamento de meta-informações dos ficheiros recebidos</p>
+    </resumo>
+    <resultados>
+        <resultado><url>app.js</url>
+            <texto>Ficheiro javascript que soluciona o trabalho de casa</texto></resultado>
+        <resultado><url>package-lock.json</url>
+            <texto></texto></resultado>
+        <resultado><url>package.json</url>
+            <texto></texto></resultado>
+        <resultado><url>views</url>
+            <texto></texto></resultado>
+        <resultado><url>routes</url>
+            <texto></texto></resultado>
+        <resultado><url>public</url>
+            <texto></texto></resultado>
+        <resultado><url>node_modules</url>
+            <texto></texto></resultado>
+        <resultado><url>bin</url>
+            <texto></texto></resultado>
+        <resultado><url>controllers</url>
+            <texto></texto></resultado>
+        <resultado><url>models</url>
+            <texto></texto></resultado>
+        <resultado><url>fileStorage</url>
+            <texto></texto></resultado>
+    </resultados>  
+</doc>

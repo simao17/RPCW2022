@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1 Ficheiros
+  h3 
+    a(href="/inserir") Inserir ficheiro
+  table
+    tr
+      th  Data
+      th  Ficheiro
+      th  Tamanho
+      th  Tipo
+      th  Descricao
+      th  Apagar
+    each file in files
+      tr
+        td=file.date
+        td
+          a(href="/download/"+file.file)=file.file
+        td=file.size
+        td=file.type
+        td=file.descricao
+        td
+          form(action="/delete/" + file.file, method="post")
+            input(type="submit", value="Delete") 
