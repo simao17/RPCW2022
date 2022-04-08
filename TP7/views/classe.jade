@@ -1,0 +1,29 @@
+extends layout 
+
+block content 
+    h1 #{classe.titulo}
+    h3 #{classe.descricao}
+    p 
+        strong Nível: 
+        | #{classe.nivel}
+    p 
+        strong Código: 
+        | #{classe.codigo}
+    div 
+        strong Descendentes:
+        ul
+            each filho in classe.filhos
+                li #{filho.titulo} - 
+                    a(href="/classes/" + filho.codigo)=filho.codigo 
+    br
+    if classe.nivel == 3
+        div
+            strong Processos Relacionados:
+            ul
+                each proc in classe.processosRelacionados
+                    if proc.idRel == "eCruzadoCom" || proc.idRel == "eComplementarDe" || proc.idRel == "eSuplementoDe" || proc.idRel == "eSuplementoPara"   
+                        li #{proc.titulo} - 
+                            a(href="/classes/" + proc.codigo)=proc.codigo  
+    br
+    br
+    a(href="/") Voltar para a página inicial

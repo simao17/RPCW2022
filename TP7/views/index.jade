@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 CLAV API
+  each objecto in items
+    li #{objecto.titulo} - 
+            a(href="/classes/" + objecto.codigo)=objecto.codigo
